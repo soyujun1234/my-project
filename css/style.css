@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css2?family=0rbitron&display=swap);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #35c7f8;
+}
+section {
+    width: 340px;
+    padding: 30px;
+    background-color: #fff;
+    margin: 50px auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+section nav.menu {
+    width: 100%;
+}
+section nav.menu::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+section nav.menu a {
+    font-size: 20px;
+    color: #666;
+}
+section nav.menu a:nth-of-type(1) {
+    float: left;
+}
+section nav.menu a:nth-of-type(2){
+    float: right;
+}
+section article.profile {
+    width: 100%;
+    text-align: center;
+}
+section article.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
+}
+section article.profile h1 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "arial";
+    line-height: 1;
+    color: #555;
+    margin-bottom: 5px;
+}
+section article.profile h2 {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: "arial";
+    color: #bbb;
+    margin-bottom: 30px;
+}
+section a.btnView {
+    display: block;
+    width: 180px;
+    height: 32px;
+    margin: 0px auto 2px;
+    background-color: #444;
+    border-radius: 16px;
+    font-size: bold;
+    font-family: "arial";
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    background: linear-gradient(45deg, #4affff, #35e0f4);
+    box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
+}
